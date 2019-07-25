@@ -1,0 +1,1 @@
+I'm following a tutorial made by Kevin Lehtla that teaches the fundamentals of SASS and Responsive Web Design
