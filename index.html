@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Advanced HTML Course</title>
+    <title>Go Further with HTML5 and CSS3</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/a0fd4f63c1.js"></script>
+    <link rel="stylesheet" href="css/minireset.min.css">
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
-    <link rel="stylesheet" href="css/minireset.min.css">
 </head>
 <body>
     
+
+    <!-- sidenave only visible in mobile -->
     <div id="mySidenav" class="mobile-nav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <img src="resources/Logo.png" alt="logo" class="menu-logo logo">
@@ -22,23 +24,126 @@
         <a href="#">Contact</a>
     </div>
 
+
+    <!-- starting the main -->
     <div id="main" class="main">
         <div class="header">
+            <!-- logo for both devices and button for mobile -->
             <div class="header-left">
                 <span class="mobile-menu" onclick="openNav()"><i class="fas fa-bars"></i></span>
                 <img src="resources/Logo.png" alt="logo" class="menu-logo logo"><span>Creative Ibot</span>
             </div>
-
-            <div class="header-left">
+            <!-- Navigation Menu for desktop -->
+            <div class="header-right">
                 <ul class="desktop-menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Case Studies</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="button border--outline">Contact</a></li>
                 </ul>
             </div>
         </div>
-    </div>
+        <!-- starting the content inside main -->
+        <div class="content">
+            <!-- Section 1 - Above the fold landing -->
+            <div class="section section-1 desktop-fh">
+                <div class="wrapper fw">
+                    <div class="textBox">
+                        <h1>Keep your Agile <br> Workspace Organized</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolorem minima itaque, sequi repellat magni dolorum rem. Perferendis provident cupiditate praesentium, commodi vitae autem, et accusantium impedit sunt quis ab!</p>
+                        <a href="#" class="button button--gradient">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Section 2 - Our services full height -->
+            <div class="section section-2 desktop-fh">
+                <div class="warapper">
+                    <div class="textBox text-center">
+                        <h1>What do we do?</h1>
+                        <h3 class="color--blue">Agile thinking is the new cool thing</h3>
+                        <p>We have years of understanding that we can use to bring you totally unique and customized agile working strategy; working with you to decide what will work for you and what won't. We understand and appreciate that each client is different.</p>
+                    </div>
+    
+                    <div class="services-list grid">
+                        <div class="services_item text-center">
+                            <div class="service_icon"><i class="fa fa-users"></i></div>
+                            <div class="service_heading"><p>Conecting Users</p></div>
+                            <div class="service_text"><p>Voluptatem, cumque ea eligendi omnis enim vel veritatis tenetur totam voluptatibus non dolor ipsam quia odio facere pariatur quod voluptatum</p></div>
+                        </div>
+                        <div class="services_item text-center">
+                            <div class="service_icon"><i class="fa fa-chart-line"></i></div>
+                            <div class="service_heading"><p>Analyzing Data</p></div>
+                            <div class="service_text"><p>Voluptatem, cumque ea eligendi omnis enim vel veritatis tenetur totam voluptatibus non dolor ipsam quia odio facere pariatur quod voluptatum</p></div>
+                        </div>
+                        <div class="services_item text-center">
+                            <div class="service_icon"><i class="fa fa-check-circle"></i></div>
+                            <div class="service_heading"><p>Creating Solutions</p></div>
+                            <div class="service_text"><p>Voluptatem, cumque ea eligendi omnis enim vel veritatis tenetur totam voluptatibus non dolor ipsam quia odio facere pariatur quod voluptatum</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Section 3 - Case Studies -->
+            <div class="section section-3 desktop-fh">
+                <div class="wrapper">
+                    <div class="textBox text-center">
+                        <h3 class="color--blue">Check out our</h3>
+                        <h2>Latest Case Studies</h2>
+                    </div>
+                </div>
+
+                <div class="wrapper fw">
+                    <div class="case-studies">
+                        <div class="case-study_item">
+                            <div class="case-study_number">1</div>
+                            <div class="case-study_date">24.12.18</div>
+                            <div class="image-overlay"><img src="resources/pexels-photo-374074.jpeg" alt="study-1" class="case-study_image"></div>
+                        </div>
+                        <div class="case-study_item">
+                            <div class="case-study_number">2</div>
+                            <div class="case-study_date">24.12.18</div>
+                            <div class="image-overlay"><img src="resources/pexels-photo-1061588.jpeg" alt="study-2" class="case-study_image"></div>
+                        </div>
+                        <div class="case-study_item">
+                            <div class="case-study_number">3</div>
+                            <div class="case-study_date">24.12.18</div>
+                            <div class="image-overlay"><img src="resources/pexels-photo-1438081.jpeg" alt="study-3" class="case-study_image"></div>
+                        </div>
+                        <div class="case-study_item">
+                            <div class="case-study_number">4</div>
+                            <div class="case-study_date">24.12.18</div>
+                            <div class="image-overlay"><img src="resources/pexels-photo-1061588.jpeg" alt="study-4" class="case-study_image"></div>
+                        </div>
+                        <div class="case-study_item">
+                            <div class="case-study_number">5</div>
+                            <div class="case-study_date">24.12.18</div>
+                            <div class="image-overlay"><img src="resources/pexels-photo-1438081.jpeg" alt="" class="case-study_image"></div>
+                        </div>
+                    </div>
+                    <div id="arrows" class="arrows"></div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="wrapper">
+                    <div class="textbox">
+                        <h3>Stay connected with us</h3>
+                        <p>Here is a list of our social media sites you should follow</p>
+                    </div>
+                    <div class="footer-list">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- content ends here -->
+    </div> 
     
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
