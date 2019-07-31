@@ -1,30 +1,9 @@
 // Variable - start with dollar sign
 $yellow: #ead31f;
 $black: #0a0a0a;
-
+$blue: #3D9BE5;
+$pink: #D025F9;
 $main-font: 'Roboto';
 
-body{
-    background: $yellow;
-    font-family: $main-font;
 
-    // we can also define variables in global scope inside of a selector
-    $padding: 2em!global;
-    // And then use the variables
-    padding: $padding;
-
-}
-
-p {
-    padding: $padding!important;
-}
-
-// Maps are defined as such
-
-$myColors: (dark: #0c425c, red: #c54254, weight: bold);
-
-p {
-    color: map-get($myColors, dark);
-    font-weight: map-get($myColors, weight);
-}
 
